@@ -1,4 +1,11 @@
-const {x, calculateSum} = require('./sum.js');
+// const {x, calculateSum} = require('./calculate/sum.js');
+// const {calculateMultiply} = require('./calculate/multiply.js');
+
+const {calculateMultiply, calculateSum} = require('./calculate');
+
+const data = require('./data.json');
+
+console.log(data);
 
 var name = "Node JS";
 
@@ -9,6 +16,7 @@ console.log(name);
 console.log(a+b);
 
 calculateSum(a,b);
+calculateMultiply(a,b);
 console.log(x);
 
 
