@@ -5,7 +5,7 @@ const {calculateMultiply, calculateSum} = require('./calculate');
 
 const data = require('./data.json');
 
-console.log(data);
+console.log(data); 
 
 var name = "Node JS";
 
