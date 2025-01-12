@@ -1,3 +1,5 @@
+// require("/path")
+
 function calculateMultiply(a, b) {
   const resuult=  a * b;
   console.log(resuult);
