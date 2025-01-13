@@ -5,6 +5,9 @@ console.log("Strat");
 var a = 1078698;
 var b = 20986;
 
+;
+
+
 crypto.pbkdf2Sync("password", "salt", 500000, 50, "sha512");
 console.log("First Key is Generated");
 
