@@ -12,7 +12,7 @@ crypto.pbkdf2Sync("password", "salt", 500000, 50, "sha512");
 console.log("First Key is Generated");
 
 crypto.pbkdf2("password", "salt", 500000, 50, "sha512", (err, key) => {
-  console.log("Second Key is Generated");
+  console.log("Second Key is Generated"); 
 });
 
 function multiplyFn(x, y) {
