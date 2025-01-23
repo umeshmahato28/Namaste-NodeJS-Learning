@@ -2,7 +2,7 @@
 // const {calculateMultiply} = require('./calculate/multiply.js');
  
 const util = require("node:util");
-
+ 
 const { calculateMultiply, calculateSum } = require("./calculate");
 
 const data = require("./data.json");
