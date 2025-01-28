@@ -1,9 +1,9 @@
-const fs = require("fs");
+const fs = require("fs"); 
 const https = require("https"); 
-
+ 
 console.log("hello world");
-
-var a = 232112;
+ 
+var a = 232112; 
 var b = 2323;
 
 https.get("https://dummyjson.com/products/1", (res) => {
