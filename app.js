@@ -1,6 +1,6 @@
 // const {x, calculateSum} = require('./calculate/sum.js');
 // const {calculateMultiply} = require('./calculate/multiply.js');
-  
+   
 const util = require("node:util");
  
 const { calculateMultiply, calculateSum } = require("./calculate");
